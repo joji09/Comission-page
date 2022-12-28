@@ -1,0 +1,168 @@
+/* global styling */
+
+* {
+  font-family: Raleway, sans-serif;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #0E0E10;
+  /* REMOVE FONT COLOR LATER */
+  color: white;
+}
+
+/* global styling */
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0E0E10;
+  width: 100%;
+  top: 0;
+  height: 4rem;
+  position: fixed;
+  z-index: 100;
+}
+
+@media (max-width: 400px;) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+#header-img {
+  max-width: 100px;
+  max-height: 50px;
+  margin: 4rem;
+}
+
+#nav-bar {
+  margin-left: auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 1em 3em;
+}
+
+nax-link:hover {
+  background-color: 41414a;
+}
+
+
+.main-title {
+  color: white;
+}
+
+.main-section {
+  padding-top: 80px;
+}
+
+#introduction {
+  padding: 85px 500px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.fab {
+  color: white;
+} 
+
+/* VIDEO SECTION HERE */
+#video {
+  display: block;
+  width: 35vw;
+  margin: 3em auto 2em auto;
+  max-width: 100%;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 850px) {
+  #video {
+    width: 75%;
+    height: 40%;
+  }
+}
+
+/* PRICE SECTION */
+
+.price-plans {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid white;
+  padding: 2rem;
+  width: 33%;
+  margin: 1em 1em;
+  position: relative;
+}
+
+@media (mind-width: 850px) and (max-width: 1000px) {
+  .container {
+    margin: 0.8em 0.5em;
+  }
+}
+
+.price-title {
+  font-size: 25px;
+}
+
+.product-img {
+  width: 20vw;
+  height: 20vw;
+  margin: 0.5em auto;
+}
+
+.description {
+  display: block;
+  color: white;
+  text-align: justify;
+  font-weight: normal;
+  font-size: 18px; 
+}
+
+.add-cart {
+  width: 80%;
+  height: 5%;
+  margin-top: 15px;
+}
+
+#form {
+  text-align: center;
+}
+
+#email-form {
+  margin-bottom: 20px;
+}
+
+#email-form {
+  margin-bottom: 80px;
+}
+
+#email {
+  margin-top: 20px;
+}
